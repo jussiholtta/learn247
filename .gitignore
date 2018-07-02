@@ -5,3 +5,4 @@ _site
 .sass-cache
 cgi-bin
 node_modules
+minima-2.4.1
