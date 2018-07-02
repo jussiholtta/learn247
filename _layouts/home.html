@@ -18,10 +18,8 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Learn 24/7" }}</h2>
     <ul class="post-list">
-      
       {%- assign sortedPosts = site.posts | sort: 'order' -%}
       {%- for post in sortedPosts -%}
-      
       <li>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Learn 24/7" }}</h2>
+      {%- assign sortedPosts = site.posts | sort: 'order' -%}
+      {%- for post in sortedPosts -%}
+        <h1 class="post-title p-name" itemprop="name headline">{{ post.title | escape }}</h1>
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+      {%- endfor -%}
+    </ul>
+    
+  {%- endif -%}
+
+</div>
