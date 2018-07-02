@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var newer = require('gulp-newer');
-var sass = require('gulp-sass');
 
 var syncsource = '/data/data/com.termux/files/home/storage/downloads/html/learn247-gh-pages';
 var syncdestination = '/data/data/com.termux/files/home/learn247-gh-pages';

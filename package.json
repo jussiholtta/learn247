@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 1",
-    "dev-screens": "screen -dmS bundle exec jekyll serve --host 0.0.0.0 .;screen -dmS gulp gulp sync watch"
+    "dev-screens": "screen -dmS http-server bundle exec jekyll serve --host 0.0.0.0 .;screen -dmS gulp gulp sync watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jussiholtta/learn247/issues"
   },
-  "homepage": "https://github.com/jussiholtta/learn247#readme"
+  "homepage": "https://github.com/jussiholtta/learn247#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
