@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hit the Learn 24/7 gym and get in shape for learning.
   Originally built for Dare To Learn 2018
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/learn247" # the subpath of your site, e.g. /blog
+url: "https://jussiholtta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jussiholtta
 github_username:  jussiholtta
 
