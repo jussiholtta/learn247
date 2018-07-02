@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 1",
-    "dev-screens": "screen -S http -p 0 -X quit;screen -S gulp -p 0 -X quit; screen -dmS http bundle exec jekyll serve --incremental --livereload --host 0.0.0.0 .;screen -dmS gulp gulp sync watch"
+    "dev-screens": "screen -S http -p 0 -X quit;screen -S gulp -p 0 -X quit; screen -dmS http bundle exec jekyll serve --host 0.0.0.0 .;screen -dmS gulp gulp sync watch"
   },
   "repository": {
     "type": "git",
