@@ -1,0 +1,23 @@
+{
+  "name": "learn247-web",
+  "version": "0.0.1",
+  "description": "Learn 24/7 gym website",
+  "main": "index.md",
+  "devDependencies": {
+    "gulp-newer": "^1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1",
+    "dev-screens": "screen -dmS bundle exec jekyll serve --host 0.0.0.0 .;screen -dmS gulp gulp sync watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jussiholtta/learn247.git"
+  },
+  "author": "Jussi Hölttä",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/jussiholtta/learn247/issues"
+  },
+  "homepage": "https://github.com/jussiholtta/learn247#readme"
+}
