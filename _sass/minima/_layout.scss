@@ -215,6 +215,18 @@
   margin-bottom: $spacing-unit;
 }
 
+.logotop {
+  width: auto;
+  height: 3em;
+  float: left;
+}
+
+.logobottom {
+  width: auto;
+  height: 6em;
+  float: right;
+}
+
 .post-title {
   text-align: center;
   font-weight: bold;
