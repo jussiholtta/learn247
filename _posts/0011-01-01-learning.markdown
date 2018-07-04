@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "LEARNING"
+tags: meta full theory
+order: "a1a"
+---
+
+We live, we learn. Learning is what *we are*.
